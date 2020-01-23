@@ -1,6 +1,5 @@
-package com.stackroute.lamdbaexpression.commander.test;
+package com.stackroute.lamdbaexpression;
 
-import com.stackroute.lamdbaexpression.PredicateFunctionalInterface;
 import org.junit.jupiter.api.*;
 
 import java.util.ArrayList;
@@ -30,16 +29,18 @@ public class PredicateFunctionalInterfaceTests {
         List<String> output = Arrays.asList("India", "Indonesia");
         assertEquals(output, predicateFunctionalInterface.findPattern(inputList), MESSAGE);
     }
+
     @Test
     public void givenListOfStringsWithoutIThenReturnResult() {
         List<String> inputList = Arrays.asList("America", "China", "Japan", "Nepal");
         List<String> output = new ArrayList<>();
         assertEquals(output, predicateFunctionalInterface.findPattern(inputList), MESSAGE);
     }
+
     @Test
     public void givenListOfStringsWithMultipleOccurrencesThenReturnResult() {
-        List<String> inputList = Arrays.asList("Indonesia","Italy","America", "India", "India", "China","Italy", "Japan", "Indonesia");
-        List<String> output = Arrays.asList("Indonesia","Italy","India");
+        List<String> inputList = Arrays.asList("Indonesia", "Italy", "America", "India", "India", "China", "Italy", "Japan", "Indonesia");
+        List<String> output = Arrays.asList("Indonesia", "Italy", "India");
         assertEquals(output, predicateFunctionalInterface.findPattern(inputList), MESSAGE);
     }
 
