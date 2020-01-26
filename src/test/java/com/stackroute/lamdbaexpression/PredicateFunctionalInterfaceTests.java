@@ -10,7 +10,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class PredicateFunctionalInterfaceTests {
     private PredicateFunctionalInterface predicateFunctionalInterface;
-
     private static final String MESSAGE = "Check the logic of your method findPattern";
 
     @BeforeEach
