@@ -1,4 +1,4 @@
-## Problem Statement: Find the list of strings which start with letter I in the given list of strings##
+## Problem Statement: Find the list of strings which start with letter I in the given list of strings ##
 
 **Given a list of strings, find the list of strings which start with letter I in the given strings**
 
