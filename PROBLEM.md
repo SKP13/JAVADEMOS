@@ -1,8 +1,8 @@
 ## Problem Statement: Find the list of strings which start with letter I in the given list of strings ##
 
-**Given a list of strings, find the list of strings which start with letter I in the given strings**
+**Given a list of strings, find the list of strings which start with letter I in the given strings using Predicate Functional Interface**
 
-**This exercise contains a class named PredicateFunctionalInterface with the following method using Predicate Functional Interface:**
+**This exercise contains a class named PredicateFunctionalInterface with the following method:**
 
 
     +findPattern(List<String>) : List<String>
